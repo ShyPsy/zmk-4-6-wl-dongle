@@ -36,11 +36,11 @@
             key-positions = <11 23>;
         };
         Layer_3 {
-            bindings = <&to 3>;
+            bindings = <&tog 3>;
             key-positions = <40 39>;
         };
         Layer_1 {
-            bindings = <&to 0>;
+            bindings = <&tog 0>;
             key-positions = <43 44>;
         };
     };
