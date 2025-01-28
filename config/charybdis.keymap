@@ -45,7 +45,7 @@
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
         scale-multiplier = <1>;
-        scale-divisor = <12>;
+        scale-divisor = <8>;
         bindings = <&ib_toggle_layer 5>;
     };
 
@@ -81,7 +81,7 @@
     ib_toggle_layer: ib_toggle_layer {
         compatible = "zmk,input-behavior-tog-layer";
         #binding-cells = <1>;
-        time-to-live-ms = <750>;
+        time-to-live-ms = <2000>;
     };
 
     behaviors {
@@ -158,10 +158,10 @@
 
         Mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans     &trans  &trans     &trans    &trans  &trans  &trans  &trans  &trans     &trans
-&trans  &trans  &trans     &trans  &trans     &trans    &trans  &trans  &trans  &trans  &trans     &trans
-&mkp MCLK  &trans  &trans     &trans  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &mkp LCLK
+&trans     &trans  &trans  &trans  &trans  &trans             &trans  &trans     &trans     &trans     &trans  &trans
+&trans     &trans  &trans  &trans  &trans  &trans             &trans  &trans     &trans     &trans     &trans  &trans
+&trans     &trans  &trans  &trans  &trans  &trans             &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans
+&mkp MCLK  &trans  &trans  &trans  &trans  &trans             &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &mkp LCLK
                            &mkp LCLK  &trans  &mkp RCLK    &trans  &trans  &trans  &trans  &trans
             >;
         };
