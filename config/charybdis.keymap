@@ -76,6 +76,7 @@
         x-input-code = <INPUT_REL_MISC>;
         y-input-code = <INPUT_REL_WHEEL>;
         y-invert;
+        scale-divisor = <7>;
         bindings = <&ib_wheel_scaler 1 16>;
     };
 
