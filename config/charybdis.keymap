@@ -109,7 +109,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        Base {
+        0Base {
             label = "Base";
             bindings = <
 &kp ESC    &kp N1  &kp N2  &kp N3   &kp N4  &kp N5      &kp N6  &kp N7  &kp N8     &kp N9   &kp N0    &kp DEL
@@ -120,7 +120,7 @@
             >;
         };
 
-        Lower {
+        1Lower {
             label = "Lower";
             bindings = <
 &trans  &trans  &trans    &trans    &trans     &trans        &trans  &trans  &trans  &trans  &trans   &trans
@@ -131,7 +131,7 @@
             >;
         };
 
-        Raise {
+        2Raise {
             label = "Raise";
             bindings = <
 &trans  &trans        &trans       &trans      &trans    &trans         &trans     &trans     &trans           &trans    &trans    &trans
@@ -142,7 +142,7 @@
             >;
         };
 
-        Game {
+        3Game {
             label = "Game";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
@@ -153,7 +153,7 @@
             >;
         };
 
-        Game_++ {
+        4Game_++ {
             label = "Game ++";
             bindings = <
 &trans   &trans        &trans        &trans        &trans        &trans            &trans         &trans         &trans         &trans         &trans         &trans
@@ -164,7 +164,7 @@
             >;
         };
 
-        Mouse {
+        5Mouse {
             bindings = <
 &trans     &trans  &trans     &trans     &trans     &trans      &trans  &trans     &trans     &trans     &trans  &trans
 &trans     &trans  &trans     &trans     &trans     &trans      &trans  &trans     &trans     &trans     &trans  &trans
