@@ -154,6 +154,7 @@
         };
 
         Game_++ {
+            label = "Game ++";
             bindings = <
 &trans   &trans        &trans        &trans        &trans        &trans            &trans         &trans         &trans         &trans         &trans         &trans
 &kt F5   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5      &kp LC(RA(Y))  &kp LC(RA(U))  &kp LC(RA(I))  &kp LC(RA(H))  &kp LC(RA(J))  &kp LC(RA(DEL))
@@ -164,7 +165,6 @@
         };
 
         Mouse {
-            label = "Mouse";
             bindings = <
 &trans     &trans  &trans     &trans     &trans     &trans      &trans  &trans     &trans     &trans     &trans  &trans
 &trans     &trans  &trans     &trans     &trans     &trans      &trans  &trans     &trans     &trans     &trans  &trans
