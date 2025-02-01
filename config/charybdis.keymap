@@ -35,7 +35,7 @@
             bindings = <&sys_reset>;
             key-positions = <11 23>;
         };
-        Game_3 {
+        Game {
             bindings = <&tog 3>;
             key-positions = <47 46>;
     };
