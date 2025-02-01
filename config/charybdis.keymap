@@ -35,9 +35,10 @@
             bindings = <&sys_reset>;
             key-positions = <11 23>;
         };
-        Game {
+        gamelay {
             bindings = <&tog 3>;
             key-positions = <47 46>;
+        };
     };
 
     trackball_listener {
