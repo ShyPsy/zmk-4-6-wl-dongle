@@ -36,7 +36,7 @@
             key-positions = <11 23>;
         };
         gamelay {
-            bindings = <&tog 1>;
+            bindings = <&tog 3>;
             key-positions = <47 46>;
         };
     };
