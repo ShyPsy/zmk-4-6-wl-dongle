@@ -71,7 +71,7 @@
         evt-type = <INPUT_EV_REL>;            
         x-input-code = <INPUT_REL_MISC>;
         y-input-code = <INPUT_REL_WHEEL>;
-        scale-divisor = <4>;
+        scale-divisor = <1>;
         y-invert;
         bindings = <&ib_wheel_scaler 1 16>;
     };
