@@ -39,6 +39,14 @@
             bindings = <&tog 1>;
             key-positions = <47 46>;
         };
+        en {
+            bindings = <&kp LANG1>;
+            key-positions = <27 28>;
+        };
+        ru {
+            bindings = <&kp LANG2>;
+            key-positions = <31 32>;
+        };
     };
 
     trackball_listener {
