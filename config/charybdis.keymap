@@ -44,8 +44,12 @@
             key-positions = <27 28>;
         };
         ru {
-            bindings = <&kp F24>;
+            bindings = <&kp LCLK>;
             key-positions = <31 32>;
+        };
+        rclk {
+            bindings = <&kp RCLK>;
+            key-positions = <32 33>;
         };
     };
 
