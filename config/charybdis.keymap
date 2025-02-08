@@ -54,6 +54,7 @@
         ScrollToggle {
             bindings = <&tog 4>;
             key-positions = <45 44>;
+        };
     };
 
     trackball_listener {
