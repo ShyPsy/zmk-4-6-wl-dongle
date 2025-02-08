@@ -51,6 +51,9 @@
             bindings = <&mkp RCLK>;
             key-positions = <32 33>;
         };
+        ScrollToggle {
+            bindings = <&tog 4>;
+            key-positions = <45 44>;
     };
 
     trackball_listener {
