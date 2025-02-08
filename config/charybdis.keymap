@@ -79,6 +79,9 @@
         y-input-code = <INPUT_REL_WHEEL>;
         scale-divisor = <1>;
         y-invert;
+
+        rotate-deg = <30>;
+
         bindings = <&ib_wheel_scaler 1 16>;
     };
 
