@@ -55,6 +55,10 @@
             bindings = <&tog 4>;
             key-positions = <45 44>;
         };
+        NumTog {
+            bindings = <&tog 3>;
+            key-positions = <21 20>;
+        };
     };
 
     trackball_listener {
