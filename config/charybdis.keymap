@@ -201,13 +201,13 @@
             label = "Navigation";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Nav╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                &kp C_AL_CALC     &trans     &kp C_MUTE    &kp C_VOL_DN  &kp C_VOL_UP   &kp C_MUTE        &kp C_MUTE   &kp C_VOL_DN  &kp C_VOL_UP   &kp C_MUTE      &trans    &kp C_AL_CALC
+                    &trans        &trans        &trans        &trans        &trans        &trans            &trans        &trans        &trans        &trans        &trans        &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 4 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                    &trans        &trans        &trans        &trans        &trans        &trans           &kp HOME      &kp PG_UP      &kp UP      &kp PG_DN       &trans        &trans   
+                &kp C_AL_CALC     &trans     &kp C_MUTE    &kp C_VOL_DN  &kp C_VOL_UP   &kp C_MUTE         &kp HOME      &kp PG_UP      &kp UP      &kp PG_DN       &trans        &trans   
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤Scr├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                     &trans        &trans       &kp LALT     &kp LCTRL     &kp LSHFT     &kp PSCRN          &kp END       &kp LEFT      &kp DOWN     &kp RIGHT     &kp LCTRL       &trans  
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 4 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                    &trans      &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)          &kp F      &kp C_VOL_DN  &kp C_VOL_UP   &kp C_MUTE       &trans        &trans
+                    &trans      &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)          &kp F      &kp C_VOL_DN  &kp C_VOL_UP   &kp C_MUTE       &trans    &kp C_AL_CALC
             // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤Scr├─────────────┼─────────────┼─────────────┴─────────────┴─────────────┴─────────────╯
                                                              &kp BSPC     &kp LSHFT       &trans           &kp RET      &kp SPACE 
             //                                           ╰─────────────┼─────────────┼─────────────┤ 4 ├─────────────┼─────────────╯
@@ -220,7 +220,7 @@
             label = "Mouse5";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Mse╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                    &trans    &kp C_AL_CALC     &trans    &kp C_VOL_DN  &kp C_VOL_UP    &kp C_MUTE          &trans        &trans        &trans        &trans        &trans        &trans
+                    &trans        &trans        &trans        &trans        &trans        &trans            &trans        &trans        &trans        &trans        &trans        &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 5 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                     &trans      &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)           &trans        &trans    &kp LA(LC(I))     &trans        &trans        &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
