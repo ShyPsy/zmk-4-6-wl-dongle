@@ -197,8 +197,8 @@
             >;
         };
 
-        Scroll_4 {
-            label = "Scroll4";
+        Navigation_4 {
+            label = "Navigation";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Nav╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                 &kp C_AL_CALC     &trans     &kp C_MUTE    &kp C_VOL_DN  &kp C_VOL_UP   &kp C_MUTE        &kp C_MUTE   &kp C_VOL_DN  &kp C_VOL_UP   &kp C_MUTE      &trans    &kp C_AL_CALC
