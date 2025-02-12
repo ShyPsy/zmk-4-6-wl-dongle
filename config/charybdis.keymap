@@ -14,20 +14,19 @@
         compatible = "zmk,combos";
 
         ParaLeft {
-            bindings = <&kp LEFT_PARENTHESIS>;
+            bindings = <&kp N9>;
             key-positions = <16 17>;
         };
         ParaRight {
-            bindings = <&kp RIGHT_PARENTHESIS>;
+            bindings = <&kp N0>;
             key-positions = <18 19>;
         };
         lesst {
-            bindings = <&kp LT>;
+            bindings = <&kp LC(LA(O))>;
             key-positions = <28 29>;
         };
-
         greatt {
-            bindings = <&kp GT>;
+            bindings = <&kp LC(LA(P))>;
             key-positions = <30 31>;
         };
 
