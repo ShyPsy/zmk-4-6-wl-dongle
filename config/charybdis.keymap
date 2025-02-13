@@ -12,7 +12,11 @@
 / {
     combos {
         compatible = "zmk,combos";
-
+    
+        qote {
+            bindings = <&kp LS(TILDE)>;
+            key-positions = <18 19>;
+        };
         ParaLeft {
             bindings = <&kp N9>;
             key-positions = <28 29>;
