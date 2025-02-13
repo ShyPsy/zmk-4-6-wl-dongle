@@ -15,19 +15,19 @@
 
         ParaLeft {
             bindings = <&kp N9>;
-            key-positions = <40 41>;
+            key-positions = <28 29>;
         };
         ParaRight {
             bindings = <&kp N0>;
-            key-positions = <42 43>;
+            key-positions = <30 31>;
         };
         lesst {
             bindings = <&kp LC(LA(O))>;
-            key-positions = <28 29>;
+            key-positions = <40 41>;
         };
         greatt {
             bindings = <&kp LC(LA(P))>;
-            key-positions = <30 31>;
+            key-positions = <42 43>;
         };
 
         bootloaderLeft {
