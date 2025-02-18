@@ -93,7 +93,8 @@
         device = <&vtrackball>;
         layers = <4>;
         evt-type = <INPUT_EV_REL>;      
-        x-input-code = <INPUT_REL_HWHEEL>;
+        //x-input-code = <INPUT_REL_HWHEEL>;
+        x-input-code = <INPUT_REL_MISC>;
         y-input-code = <INPUT_REL_WHEEL>;
         y-invert;
         //rotate-deg = <30>; not work with "y-inv"
