@@ -80,7 +80,7 @@
         rotate-deg = <30>;
     };
 
-    trackball_scroll_listener {
+    trackball2_scroll_listener {
         compatible = "zmk,input-behavior-listener";
         device = <&vtrackball>;
         layers = <4>;
