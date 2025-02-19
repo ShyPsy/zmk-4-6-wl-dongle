@@ -99,8 +99,8 @@
         x-input-code = <INPUT_REL_HWHEEL>;
         //x-input-code = <INPUT_REL_MISC>;
         y-input-code = <INPUT_REL_MISC>;
-        y-invert;
-        //rotate-deg = <30>; not work with "y-inv"
+        scale-divisor = <8>;
+        rotate-deg = <30>; not work with "y-inv"
         bindings = <&ib_wheel_scaler 1 16>;
     };
 
