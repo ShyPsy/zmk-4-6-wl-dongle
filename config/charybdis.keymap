@@ -100,7 +100,7 @@
         //x-input-code = <INPUT_REL_MISC>;
         y-input-code = <INPUT_REL_MISC>;
         scale-divisor = <8>;
-        rotate-deg = <30>;
+        //rotate-deg = <30>;
         bindings = <&ib_wheel_scaler 1 16>;
     };
 
