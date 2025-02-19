@@ -71,16 +71,15 @@
     trackball_listener {
         compatible = "zmk,input-behavior-listener";
         device = <&vtrackball>;
-        layers = <0 1 2 3 5>;
+        layers = <0 1 3 5>;
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
         scale-multiplier = <1>;
         scale-divisor = <1>;
         rotate-deg = <30>;
-    };
-
-    trackball2_scroll_listener {
+    }; 
+        trackball_scroll_listener {
         compatible = "zmk,input-behavior-listener";
         device = <&vtrackball>;
         layers = <4>;
@@ -88,6 +87,18 @@
         //x-input-code = <INPUT_REL_HWHEEL>;
         x-input-code = <INPUT_REL_MISC>;
         y-input-code = <INPUT_REL_WHEEL>;
+        y-invert;
+        //rotate-deg = <30>; not work with "y-inv"
+        bindings = <&ib_wheel_scaler 1 16>;
+    };
+        trackball2_scroll_listener {
+        compatible = "zmk,input-behavior-listener";
+        device = <&vtrackball>;
+        layers = <2>;
+        evt-type = <INPUT_EV_REL>;      
+        x-input-code = <INPUT_REL_HWHEEL>;
+        //x-input-code = <INPUT_REL_MISC>;
+        y-input-code = <INPUT_REL_MISC>;
         y-invert;
         //rotate-deg = <30>; not work with "y-inv"
         bindings = <&ib_wheel_scaler 1 16>;
