@@ -19,19 +19,19 @@
         };
         ParaLeft {
             bindings = <&kp N9>;
-            key-positions = <28 29>;
+            key-positions = <40 41>;
         };
         ParaRight {
             bindings = <&kp N0>;
-            key-positions = <30 31>;
+            key-positions = <42 43>;
         };
         eng {
             bindings = <&kp F16>;
-            key-positions = <40 41>;
+            key-positions = <28 29>;
         };
         rus {
             bindings = <&kp F17>;
-            key-positions = <42 43>;
+            key-positions = <30 31>;
         };
 
         bootloaderLeft {
