@@ -25,11 +25,11 @@
             bindings = <&kp N0>;
             key-positions = <30 31>;
         };
-        EN {
+        eng {
             bindings = <&kp F16>;
             key-positions = <40 41>;
         };
-        RU {
+        rus {
             bindings = <&kp F17>;
             key-positions = <42 43>;
         };
