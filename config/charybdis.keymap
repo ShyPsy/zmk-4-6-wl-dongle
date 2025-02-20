@@ -25,12 +25,12 @@
             bindings = <&kp N0>;
             key-positions = <30 31>;
         };
-        lesst {
-            bindings = <&kp LC(LA(O))>;
+        EN {
+            bindings = <&kp F16>;
             key-positions = <40 41>;
         };
-        greatt {
-            bindings = <&kp LC(LA(P))>;
+        RU {
+            bindings = <&kp F17>;
             key-positions = <42 43>;
         };
 
@@ -148,7 +148,7 @@
             // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────┴─────────────╯
                                                             &mo MOUSE     &kp LSHFT    &lt NUM DEL         &kp BSPC   &lt NAV SPACE
             //                                           ╰─────────────┼─────────────┼─────────────┤ 0 ├─────────────┼─────────────╯
-                                                                           &kp LALT     &kp LCTRL          &kp RET    
+                                                                           &kp LALT     &kp LCTRL         &lt FN RET    
             //                                                         ╰─────────────┴─────────────╯Bse╰─────────────╯
             >;
         };
