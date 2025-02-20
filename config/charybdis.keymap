@@ -12,7 +12,11 @@
 / {
     combos {
         compatible = "zmk,combos";
-    
+
+        qote {
+            bindings = <&kp LS(TILDE)>;
+            key-positions = <16 17>;
+        };
         greatt {
             bindings = <&kp LC(LA(P))>;
             key-positions = <18 19>;
