@@ -197,13 +197,13 @@
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Num╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                     &trans        &trans        &trans        &trans        &trans        &trans            &trans        &trans        &trans        &trans        &trans        &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 3 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &kp C_AL_CALC     &trans      &kp C_MUTE   &kp C_VOL_DN  &kp C_VOL_UP   &kp C_MUTE      &kp LS(TILDE)   &kp LS(N7)    &kp LS(N8)    &kp LS(N9)    &kp EQUAL       &trans
+                &kp C_AL_CALC     &trans      &kp C_MUTE   &kp C_VOL_DN  &kp C_VOL_UP   &kp C_MUTE        &kp TILDE       &kp N7        &kp N8        &kp N9      &kp EQUAL       &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 3 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                    &trans        &trans       &kp LALT     &kp LSHFT     &kp LCTRL     &kp PSCRN        &kp KP_PLUS    &kp LS(N4)    &kp LS(N5)    &kp LS(N6)   &kp KP_MINUS     &trans
+                    &trans        &trans       &kp LALT     &kp LSHFT     &kp LCTRL     &kp PSCRN        &kp KP_PLUS      &kp N4        &kp N5        &kp N6    &kp KP_MINUS      &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 3 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                    &trans      &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)      &kp KP_MULTIPLY  &kp LS(N1)    &kp LS(N2)    &kp LS(N3)   &kp KP_SLASH    &kp RBKT
+                    &trans      &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)      &kp KP_MULTIPLY    &kp N1        &kp N2        &kp N3    &kp KP_SLASH     &kp RBKT
             // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤ 3 ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────┴─────────────╯
-                                                              &none         &none         &none            &kp BSPC     &kp LS(N0) 
+                                                              &none         &none         &none            &kp BSPC       &kp N0
             //                                           ╰─────────────┼─────────────┼─────────────┤ 3 ├─────────────┼─────────────╯
                                                                             &none         &mo FN           &kp RET 
             //                                                         ╰─────────────┴─────────────╯Num╰─────────────╯
