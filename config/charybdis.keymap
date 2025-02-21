@@ -14,7 +14,7 @@
         compatible = "zmk,combos";
 
         qote {
-            bindings = <&kp LS(TILDE)>;
+            bindings = <&kp TILDE>;
             key-positions = <16 17>;
         };
         greatt {
@@ -22,11 +22,11 @@
             key-positions = <18 19>;
         };
         ParaLeft {
-            bindings = <&kp N9>;
+            bindings = <&kp LS(N9)>;
             key-positions = <40 41>;
         };
         ParaRight {
-            bindings = <&kp N0>;
+            bindings = <&kp LS(N0)>;
             key-positions = <42 43>;
         };
         eng {
@@ -57,10 +57,6 @@
         gamelay {
             bindings = <&tog 1>;
             key-positions = <47 46>;
-        };
-        en {
-            bindings = <&kp F23>;
-            key-positions = <27 28>;
         };
         ScrollToggle {
             bindings = <&tog 4>;
