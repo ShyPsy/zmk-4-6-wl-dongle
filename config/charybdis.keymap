@@ -14,7 +14,7 @@
         compatible = "zmk,combos";
 
         qote {
-            bindings = <&kp TILDE>;
+            bindings = <&kp GRAVE>;
             key-positions = <16 17>;
         };
         greatt {
