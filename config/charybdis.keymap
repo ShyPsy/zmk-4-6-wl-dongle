@@ -54,8 +54,8 @@
             bindings = <&sys_reset>;
             key-positions = <11 23>;
         };
-        gamelay {
-            bindings = <&tog 1>;
+        micelay {
+            bindings = <&tog 5>;
             key-positions = <46 47>;
         };
         ScrollToggle {
