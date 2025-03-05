@@ -67,7 +67,7 @@
             key-positions = <21 22>;
         };
         gomouse {
-            bindings = <&to 5>;
+            bindings = <&tog 5>;
             key-positions = <51 55>;
         };
     };
